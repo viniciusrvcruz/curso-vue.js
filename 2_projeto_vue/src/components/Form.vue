@@ -1,5 +1,6 @@
 <template>
     <form action="" @submit="enviarFormulario($event)">
+        <h2>Meu formulário: </h2>
         <div>
             <input type="text" v-model="name">
         </div>
